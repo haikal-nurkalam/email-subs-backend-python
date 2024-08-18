@@ -27,8 +27,8 @@ if response.data:
     latest_record = response.data[0]
     if latest_record.get("status") is False:
         # Your credentials
-        my_email = "miglorejames@gmail.com"
-        my_password = "tmjewcdspetrskdx"
+        my_email = ""
+        my_password = ""
 
         # Recipient email
         to_email = latest_record.get("email")
